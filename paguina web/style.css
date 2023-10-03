@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica;
+    background: #1d981d;
+    
+}
+
+.color{
+    color: #1d981d;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 30PX;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ead31f;
+}
+.Bienvenido{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : aliceblue;
+    margin:50px 0px 0px 200px ;
+}
+.centrado{
+    text-align:  center;
+    color: aliceblue;
+}
+.estilo{
+    margin: -150px 0px 0px 1000px;  /*es para sentrar la imagen donde prefiera*/
+background-color: #ead31f ;
+display: flex;
+justify-content:center;   /*centra la imagen*/
+align-items: center;
+width: 400px;         /*es el borde de los lados que se le esta dando*/
+height:500px;              /*es el borde de los de ariba y abajo que se le esta dando*/
+border-radius: 25px;
+}
+.estilo img{
+    width:  300px;
+    height: 400px;
+}
+.fondo{
+    margin: 150px 0px 0px 100px;
+    background-color: #ead31f;
+    width: 700px;
+    height: 160px;
+border-radius: 25px;
+}
+.fondos{
+    margin: -150px 0px 0px 1000px;  /*es para sentrar la imagen donde prefiera*/
+    background-color: #ead31f ;
+    display: flex;
+    justify-content:center;   /*centra la imagen*/
+    align-items: center;
+    width:  350px;         /*es el borde de los lados que se le esta dando*/
+    height: 450px;              /*es el borde de los de ariba y abajo que se le esta dando*/
+    border-radius: 30px;
+}
+.fondos img{
+    width:  300px;
+    height: 400px;
+}
+.colegio{
+    margin: -150px 0px 0px 100px;  /*es para sentrar la imagen donde prefiera*/
+    background-color: #ead31f ;
+    display: flex;
+    justify-content:center;   /*centra la imagen*/
+    align-items: center;
+    width:  450px;         /*es el borde de los lados que se le esta dando*/
+    height: 500px;              /*es el borde de los de ariba y abajo que se le esta dando*/
+    border-radius: 25px;
+}
+.colegio img{
+    border-radius: 25px;
+}
+.carrusel-items{
+    display: flex;
+    overflow-x: scroll;
+}
+.carrusel-item{
+    min-width: 300px;
+    max-height: 300px;
+}
+.carrusel-item img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+
+
